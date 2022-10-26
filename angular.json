@@ -31,7 +31,11 @@
               "src/styles.scss"
 
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/aos.js",
+              "src/assets/js/main.js",
+              "src/assets/js/now-ui-kit.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -101,6 +105,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
