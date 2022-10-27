@@ -8,7 +8,7 @@ export interface ProjectDTO {
 export const ProjectLists:ProjectDTO[] = [
     {
         title:"A movie Review Site",
-        description:"A great movie review site Built by Angular with PrimeNG components and which uses themoviedb.com free API which has the functionality of search movies,view trailers,filter by genres and many more",
+        description:"A great movie review site Built using Angular with PrimeNG reusable components and which uses themoviedb.com free REST API for the backend. which has the functionality of search movies,has different movie categories section,view trailers,view different posters, filter by genres and many more",
         images:[
             'assets/images/movie_review1.png',
             'assets/images/movie_review2.png',
@@ -20,7 +20,7 @@ export const ProjectLists:ProjectDTO[] = [
      },
      {
         title:"House and Car Rental Admin Dashboard",
-        description:"A Admin DashBoard for Agents and Admins powered by Angular,Express,MongoDB and Redis with Full authentication and different role which has the functionality of with all CRUD operations of system main components and with different Charting for visualization with different filter mechanism",
+        description:"Admin DashBoard for Agents and Admins powered by Angular,Express,MongoDB and Redis with Full authentication and different role which has the functionality of with all CRUD operations of system main components and with different Charting for visualization with different filter mechanism",
         images:[
             'assets/images/rental_angular1.png',
             'assets/images/rental_angular2.png',
