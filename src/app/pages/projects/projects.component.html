@@ -7,7 +7,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div *ngFor="let imageUrl of project.images;let j = index;" class="carousel-item ml-4" [class.active]="j == 0" style="height:400px ;max-width:400px ;">
-                        <img [src]="imageUrl" class="d-block w-100 h-100" [alt]="project.title" style="background-size: cover;">
+                        <img [src]="imageUrl" class="d-block w-100 h-100" [alt]="project.title" style="width:max-content; background-size: cover;">
                       </div>
               
                     </div>
