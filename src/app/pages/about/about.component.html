@@ -1,30 +1,44 @@
 <div class="section" id="about">
-    <div class="container">
-        <div class="card" data-aos="fade-up" data-aos-offset="10">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="card-body">
-                        <div class="h4 mt-0 title">About Me</div>
-                            <p align="justify">Hello! My name is Amanuel and From a young age, I’ve always had a sense of motivation and passion driving me forward. Whether it’s exploring unique opportunities, learning additional skills, or meeting new people, I bring these values to every experience throughout my life on a personal and professional level.</p>
-                            <p align="justify">Full-Stack Developer with a Software Engineering degree specializing on Angular,Express,MongoDB,Node.js and Android development.</p>
-                            <p align="justify">To learn more about me, keep exploring my site or reach out directly.</p>
-                    </div>
-                </div>    
-                <div class="col-lg-6 col-md-12">       
-                    <div class="card-body">
-                        <div class="h4 mt-0 title">Basic Information</div>
-                        <div *ngFor="let item of info;let i = index" [class.mt-4]="i > 0" class="row">
-                            <div class="col-sm-4">
-                                <strong class="text-uppercase">{{item.title}}:</strong>
-                            </div>
-                            <div class="col-sm-8">{{item.data}}</div>
-                        </div>
-                     
-                     </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About Me</div>
+            <p align="justify">
+              Hello! My name is Amanuel and From a young age, I’ve always had a
+              sense of motivation and passion driving me forward. Whether it’s
+              exploring unique opportunities, learning additional skills, or
+              meeting new people, I bring these values to every experience
+              throughout my life on a personal and professional level.
+            </p>
+            <p align="justify">
+              Full-Stack Developer with a Software Engineering degree
+              specializing on Angular,React,Express,MongoDB,Node.js and Android
+              development.
+            </p>
+            <p align="justify">
+              To learn more about me, keep exploring my site or reach out
+              directly.
+            </p>
+          </div>
         </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div
+              *ngFor="let item of info; let i = index"
+              [class.mt-4]="i > 0"
+              class="row"
+            >
+              <div class="col-sm-4">
+                <strong class="text-uppercase">{{ item.title }}:</strong>
+              </div>
+              <div class="col-sm-8">{{ item.data }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
-
-
